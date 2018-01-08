@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* CLEARFIX class */
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+ header{
+    /* overflow:hidden; */
+ }  
+.header{
+    background-color: #9bddd8;
+    background-image: url(header_back.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 737px;
+    position: relative;
+    overflow:hidden;
+}
+.logo{
+    position: absolute;
+    top: 40px;
+    left: 137px;
+    font-size: 20px;
+    color: white;
+}
+nav{
+    background-color: blue;
+    text-align: center;
+    position: relative;
+     top: 40px; 
+}
+.header ul{
+    position: absolute;
+    right: 220px;
+   
+}
+.header ul li {
+    display: inline-block;
+     
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    line-height: 20px;
+    border: 2px solid transparent;
+}
+.header a:hover{
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+
+
+.profile{
+    width: 56px;
+    min-height: 44px;
+    /* background-color: bisque; */
+    position: absolute;
+    right: 138px;
+    top: -10px;
+}
+.profile__img{
+    position: absolute;
+    /* top: 4px; */
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgb(99, 40, 148);
+}
+.profile__arrow{
+position: absolute;
+width: 0; 
+height: 0; 
+border-top: 7px solid white;
+border-left: 4px solid transparent;
+border-right: 4px solid transparent;
+right: 0;
+top: 50%;
+}
+.profile__arrow:hover{
+    transform: scale(1.2);
+}
+.caption{
+    margin-top: 230px;
+    font-size: 56px;
+    color: white;
+    font-weight: bold;
+}
+.caption b{
+    color:#01a2a6;
+}
+.caption, .caption__desc{
+    text-align: center;
+}
+.caption__desc{
+    margin-top: 18px;
+color:#fafafa;
+line-height: 35px;
+font-size: 20px;
+}
+.header__btn{
+    position: absolute;
+    border-radius: 40px;
+    background-color: #ffffa6;
+    min-height: 73px;
+    line-height: 73px;
+    text-align: center;
+    width: 15.41%;
+    bottom: 248px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.header__btn p{
+    font-weight: bold;
+    font-size: 13px;
+}
